@@ -13,7 +13,15 @@ const PORT = process.env.PORT || 3001;
 
 const hbs = exphbs.create({ helpers });
 
-
+const sess = {
+  secret: process.env.DB_SESSION_SECRET,
+  cookie: {MaxAge: 3600},
+  resave: false,
+  saveUninitialized: true,
+  store: new SequelizeStore({
+    db: sequelize
+  })
+};
 
 app.use(session(sess));
 
