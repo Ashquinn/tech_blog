@@ -1,0 +1,27 @@
+[
+    {
+      "title": "HTML",
+      "post_text": "HTML is one of the first concepts that I learned how to use a beginning coder. My very first site consisted of just HTML.",
+      "user_id": 1
+    },
+    {
+      "title": "CSS",
+      "post_text": "CSS is where coders really get to show their creativity and their styles. In my opinion without CSS websites would be boring and would NOT grab users attention.",
+      "user_id": 2
+    },
+    {
+      "title": "Javascript",
+      "post_text": "Javascripts is purpose is for adding interactive behavior to web pages. JavaScript allows users to interact with web pages and adds functionality to an otherwise static page.",
+      "user_id": 3
+    },
+    {
+      "title": "React.JS",
+      "post_text": "I have been studying React for a while now and I have to say that it is phenomenal! I love how everything is broken up into components, it allows for easier organization and code flow.",
+      "user_id": 4
+    },
+    {
+      "title": "Hashing",
+      "post_text": "A very important part of user authentication is hashing passwords. When a user creates a password and when they log in, sensitive information like the password should be protected. bcrypt is a popular npm package that accomplishes this task.",
+      "user_id": 5
+    }
+]
